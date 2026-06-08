@@ -10,7 +10,7 @@ public:
             mp[ransomNote[i]]--;
             if(mp[ransomNote[i]]==0){
                 mp.erase(ransomNote[i]);
-            }
+     }
         }
         else{
             return false;
