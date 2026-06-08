@@ -3,7 +3,6 @@ public:
     bool repeatedSubstringPattern(string s) {
         int n=s.length();
         string ans="";
-        ans.reserve(n);
         for(int i=0;i<n/2;i++){
            string temp= s.substr(0,i+1);
           for(int j=0;j<n/temp.size();j++){
